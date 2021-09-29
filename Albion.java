@@ -31,7 +31,9 @@ public class Albion {
 		
 		// decrement
 		System.out.println();
+		// pre is before, so minus muna bago gamitin
 		System.out.println("Decrement 1 (pre): " + --J); // J = J - 1
+		// post is after, so gamit muna bago mag-minus
 		System.out.println("Decrement 2 (post): " + N--); // use N; N = N - 1
 		System.out.println("Value of N after post-decrement: " + N);
 
